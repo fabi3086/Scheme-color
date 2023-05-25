@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.header-scheme-color{
+    display: flex;
+    column-gap: 1rem;
+    width: 500vw;
+    height: 13vh;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+input{
+    width: 3.81rem;
+    height: 2.6rem;
+}
+
+.select-mode,
+.get-color-btn{
+     background: #FFFFFF;
+     height: 2.6rem;
+     border: 1px solid #D1D5DB;
+}
+
+.select-mode{
+    width: 19rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.get-color-btn{
+    border-radius: 4px;
+    width: 7.68rem;
+    font-size: 0.75rem;
+}
+
+#output-container div {
+    height: 65vh;
+    width: 15vw;
+    padding: 2px;
+}
+
+#output-container {
+    display: flex;
+    justify-content: center;
+}
